@@ -1,17 +1,25 @@
 package org.vedenemo
 
-import io.quarkus.websocket.WebSocket
-import io.quarkus.websocket.OnOpen
-import io.quarkus.websocket.OnClose
+import jakarta.websocket.OnClose
+import jakarta.websocket.OnOpen
 import jakarta.websocket.Session
+import jakarta.websocket.server.ServerEndpoint
 import jakarta.enterprise.context.ApplicationScoped
 import java.util.concurrent.CopyOnWriteArraySet
 
-@WebSocket("/modelConnector")
+@ServerEndpoint("/modelConnector")
 @ApplicationScoped
 class VedenemoModelConnector {
 
-    private val sessions: MutableSet<Session> = CopyOnWriteArraySet()
+    companion object {
+        private val sessions: MutableSet<Session> = CopyOnWriteArraySet()
+
+        fun broadcastToClients(message: String): Boolean {
+            if (sessions.isEmpty()) return false
+            sessions.forEach { it.basicRemote.sendText(message) }
+            return true
+        }
+    }
 
     @OnOpen
     fun onOpen(session: Session) {
@@ -23,11 +31,5 @@ class VedenemoModelConnector {
     fun onClose(session: Session) {
         sessions.remove(session)
         println("Client disconnected: ${session.id}")
-    }
-
-    fun broadcastToClients(message: String): Boolean {
-        if (sessions.isEmpty()) return false
-        sessions.forEach { it.basicRemote.sendText(message) }
-        return true
     }
 }
