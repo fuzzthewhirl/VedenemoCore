@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c05b91ab-cfc7-422a-927c-33047d855a75" name="Changes" comment="Build file updates part 4">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.13/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.13/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.13/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/vedenemo/VedenemoCoreModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/vedenemo/VedenemoCoreModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/vedenemo/VedenemoModelConnector.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/vedenemo/VedenemoModelConnector.kt" afterDir="false" />
-    </list>
+    <list default="true" id="c05b91ab-cfc7-422a-927c-33047d855a75" name="Changes" comment="Build file updates part N" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -135,7 +121,7 @@
       <workItem from="1750166346145" duration="240000" />
       <workItem from="1750166790175" duration="29000" />
       <workItem from="1750166831321" duration="1648000" />
-      <workItem from="1750168683114" duration="1167000" />
+      <workItem from="1750168683114" duration="1478000" />
     </task>
     <task id="LOCAL−00001" summary="Build file updates part 1">
       <option name="closed" value="true" />
@@ -179,7 +165,14 @@
       <option name="presentableId" value="LOCAL−00006" />
       <updated>1750168969374</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL−00007" summary="Build file updates part N">
+      <option name="closed" value="true" />
+      <created>1750170171140</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1750170171140</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +200,7 @@
     <MESSAGE value="Build file updates part 2" />
     <MESSAGE value="Build file updates part 3" />
     <MESSAGE value="Build file updates part 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Build file updates part 4" />
+    <MESSAGE value="Build file updates part N" />
+    <option name="LAST_COMMIT_MESSAGE" value="Build file updates part N" />
   </component>
 </project>
