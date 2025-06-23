@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c05b91ab-cfc7-422a-927c-33047d855a75" name="Changes" comment="Build file updates part N">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.13/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/VedenemoCore-dev.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/VedenemoCore-dev.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/build-metrics.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/build-metrics.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/quarkusDev/quarkus-app-model.dat" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/quarkusDev/quarkus-app-model.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/quarkusDev/quarkus-app-test-model.dat" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/quarkusDev/quarkus-app-test-model.dat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,6 +130,7 @@
       <workItem from="1750166831321" duration="1648000" />
       <workItem from="1750168683114" duration="1852000" />
       <workItem from="1750190904581" duration="1630000" />
+      <workItem from="1750716274109" duration="788000" />
     </task>
     <task id="LOCAL−00001" summary="Build file updates part 1">
       <option name="closed" value="true" />
