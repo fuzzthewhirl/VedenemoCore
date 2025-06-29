@@ -3,16 +3,23 @@ package org.vedenemo.dsl
 import java.time.LocalDateTime
 import kotlin.test.Test
 import kotlin.test.assertEquals
-import kotlin.test.assertTrue
 
 class AssociationDslTest {
+
+    companion object {
+            val NOW: LocalDateTime
+
+            init {
+                NOW = LocalDateTime.now()
+            }
+    }
 
     @Test
     fun `test building association with DSL`() {
         val assoc = association(
             azName = "employment",
             visName = "Employment",
-            activeSince = Version(VersionType.SNAPSHOT, 1, minor=0, patch=0, since=LocalDateTime.now()),
+            activeSince = Version(VersionType.SNAPSHOT, 1, minor=0, patch=0, since=NOW),
             null
         ) {
             directionality(Directionality.UNIDIRECTIONAL)
@@ -33,7 +40,7 @@ class AssociationDslTest {
                     azName = "startDate",
                     visName = "Start Date",
                     type = DataType.TEXT,
-                    activeSince = Version(VersionType.SNAPSHOT, 1, minor=0, patch=0, since=LocalDateTime.now())
+                    activeSince = Version(VersionType.SNAPSHOT, 1, minor=0, patch=0, since=NOW)
                 )
             )
         }
@@ -44,6 +51,6 @@ class AssociationDslTest {
         assertEquals("Organization", assoc.endB.entityName)
         assertEquals(1, assoc.attributes.size)
         assertEquals("startDate", assoc.attributes.first().azName)
-        assertEquals(Version(VersionType.SNAPSHOT, 1, minor=0, patch=0, since=LocalDateTime.now()), assoc.activeSince)
+        assertEquals(Version(VersionType.SNAPSHOT, 1, minor=0, patch=0, since=NOW), assoc.activeSince)
     }
 }
