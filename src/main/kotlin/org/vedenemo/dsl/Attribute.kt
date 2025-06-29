@@ -11,7 +11,7 @@ data class Attribute(
     val azName: String,
     val visName: String,
     override val activeSince: Version,
-    override val deprecatedSince: Version,
+    override val deprecatedSince: Version? =  null,
     val type: DataType
 ) : Versionable() {
     init {

@@ -8,7 +8,7 @@ data class Association(
     val endB: AssociationEnd,
     val attributes: List<Attribute> = emptyList(),
     override val activeSince: Version,
-    override val deprecatedSince: Version,
+    override val deprecatedSince: Version? =  null,
 ) : Versionable() {
     init {
         require(azName.matches(Regex("^[a-zA-Z0-9]+\$"))) {

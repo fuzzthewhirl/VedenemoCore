@@ -8,5 +8,5 @@ package org.vedenemo.dsl
  */
 abstract class Versionable {
     abstract val activeSince: Version
-    abstract val deprecatedSince: Version
+    abstract val deprecatedSince: Version?
 }

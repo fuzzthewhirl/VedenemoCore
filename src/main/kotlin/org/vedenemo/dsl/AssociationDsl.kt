@@ -4,7 +4,7 @@ fun association(
     azName: String,
     visName: String,
     activeSince: Version,
-    deprecatedSince: Version,
+    deprecatedSince: Version? =  null,
     init: AssociationBuilder.() -> Unit
 ): Association {
     val builder = AssociationBuilder(azName, visName, activeSince, deprecatedSince)
@@ -16,7 +16,7 @@ class AssociationBuilder(
     private val azName: String,
     private val visName: String,
     private val activeSince: Version,
-    private val deprecatedSince: Version
+    private val deprecatedSince: Version? =  null
 ) {
     private var directionality: Directionality = Directionality.UNIDIRECTIONAL
     private var endA: AssociationEnd? = null
@@ -54,8 +54,7 @@ class AssociationBuilder(
             endA = endA!!,
             endB = endB!!,
             attributes = attributes.toList(),
-            activeSince = activeSince,
-            deprecatedSince = deprecatedSince
+            activeSince = activeSince
         )
     }
 }

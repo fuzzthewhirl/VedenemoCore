@@ -14,4 +14,5 @@ dependencies {
     implementation("io.quarkus:quarkus-kotlin")
     implementation("jakarta.ws.rs:jakarta.ws.rs-api:3.1.0")
     testImplementation("io.quarkus:quarkus-junit5")
+    testImplementation(kotlin("test"))
 }
