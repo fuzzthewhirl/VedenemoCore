@@ -1,4 +1,4 @@
-package org.vedenemo.core
+package org.vedenemo.dsl
 
 /**
  * Maintains a history of software versions in chronological order.

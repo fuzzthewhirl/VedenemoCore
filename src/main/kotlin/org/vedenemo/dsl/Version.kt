@@ -1,4 +1,4 @@
-package org.vedenemo.core
+package org.vedenemo.dsl
 import java.time.LocalDateTime
 
 /**

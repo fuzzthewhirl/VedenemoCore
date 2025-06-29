@@ -1,4 +1,4 @@
-package org.vedenemo.core
+package org.vedenemo.dsl
 
 /**
  * Represents an attribute within a model, including its name, visibility, lifecycle, and type.

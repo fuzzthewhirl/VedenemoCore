@@ -1,4 +1,4 @@
-package org.vedenemo.core
+package org.vedenemo.dsl
 
 /**
  * Abstract base class representing an element with a lifecycle based on model versions.
