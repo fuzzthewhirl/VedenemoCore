@@ -16,6 +16,7 @@ class VedenemoCoreModel {
     @POST
     @Path("/echo")
     fun echo(payload: String): Response {
+        println("payload: $payload\n")
         return if (VedenemoModelConnector.broadcastToClients(payload)){
             Response.ok("Echoed to WebSocket clients.").build()
         } else {
