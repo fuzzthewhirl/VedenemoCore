@@ -1,1 +1,3 @@
-# VedenemoCore"# VedenemoModelViewer" 
+# VedenemoCore
+
+./gradlew --console=plain quarkusDev
